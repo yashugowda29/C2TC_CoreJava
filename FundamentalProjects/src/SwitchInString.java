@@ -7,6 +7,9 @@ public class SwitchInString {
 		
 		switch(currentDay)
 		{
+		case "Sunday":
+			System.out.println("Today is Sunday");
+			break;
 		case "Monday":
 			System.out.println("Today is Monday");
 			break;
@@ -24,9 +27,6 @@ public class SwitchInString {
 			break;
 		case "Saturday":
 			System.out.println("Today is Saturday");
-			break;
-		case "Sunday":
-			System.out.println("Today is Sunday");
 			break;
 		}
 	}
