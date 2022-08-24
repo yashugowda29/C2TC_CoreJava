@@ -1,6 +1,6 @@
 package com.cg.statickeyword;
 
-public class Student {
+class Student1 {
 	
 	int id;
 	String name;
@@ -8,9 +8,12 @@ public class Student {
 	static void change() {
 		college="REVA";
 	}
+
+public static class Main {
+
 	public static void main(String[] args) {
-		
-		Student s1 = new Student();
+	
+		Student1 s1 = new Student1();
 		s1.id=101;
 		s1.name="Yashaswini";
 		//s1.college="RGIT";
@@ -20,11 +23,11 @@ public class Student {
 		s1.name="Hithashree";
 		//s1.college="RGIT";
 		
-		change();
+		Student1.change();
 		System.out.println(s1.college);
 		System.out.println(s2.college);
 
 
 	}
-
+}
 }
