@@ -17,13 +17,13 @@ public class UsingStatic {
 		UsingStatic obj = new UsingStatic();
 		obj.varinstance=4;
 		System.out.println("The Instance Variable is : " + obj.varinstance);
-		System.out.println("The Static variable is : " + varstatic);
+		System.out.println("The Static variable is : " + obj.varstatic);
 		
 		obj.varinstance++; // 5
 		obj.varstatic++; // 6
 		System.out.println("After Incrementation");
 		System.out.println("The Instance Variable is : " + obj.varinstance);
-		System.out.println("The Static variable is : " + varstatic);
+		System.out.println("The Static variable is : " + obj.varstatic);
 		
 		UsingStatic obj1 = new UsingStatic();
 		obj1.varinstance++; // 1
