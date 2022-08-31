@@ -16,7 +16,6 @@ public class SwitchEnum {
 		case choice2:
 			System.out.println("My choice is choice2");
 			break;
-			
 		default:
 			System.out.println("I have not selected anything from the available choice");
 			break;
