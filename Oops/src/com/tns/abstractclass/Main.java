@@ -8,6 +8,11 @@ public class Main {
 		
 		RE obj = new RE();
 		obj.clutch();
+		obj.run();
+		
+		Bike b1 = new RE();
+		b1.run();
+		b1.clutch();
 	
 	}
 
