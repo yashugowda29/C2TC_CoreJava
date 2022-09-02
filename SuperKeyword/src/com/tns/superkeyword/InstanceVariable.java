@@ -5,6 +5,7 @@ class Animal {
 }
 class Dog extends Animal {
 	String color="White";
+	
 	void printcolor() {
 		System.out.println(color); // White
 		System.out.println(super.color); // Brown
