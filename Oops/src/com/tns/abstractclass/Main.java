@@ -1,6 +1,6 @@
 package com.tns.abstractclass;
 
-import com.tns.concreteclass.RE;
+import com.tns.concreteclass.*;
 
 public class Main {
 
@@ -8,6 +8,7 @@ public class Main {
 		
 		RE obj = new RE();
 		obj.clutch();
+	
 	}
 
 }
