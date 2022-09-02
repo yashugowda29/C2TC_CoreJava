@@ -1,6 +1,6 @@
 package com.tns.inheritance;
 
-import com.tns.concreteclass.*;
+import com.tns.classdetails.*;
 
 public class HierarchialInheritance {
 

@@ -1,6 +1,6 @@
 package com.tns.inheritance;
 
-import com.tns.concreteclass.Dog;
+import com.tns.classdetails.Dog;
 
 public class SingleInheritance {
 

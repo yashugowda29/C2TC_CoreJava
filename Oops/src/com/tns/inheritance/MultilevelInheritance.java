@@ -1,6 +1,6 @@
 package com.tns.inheritance;
 
-import com.tns.concreteclass.Puppy;
+import com.tns.classdetails.Puppy;
 
 public class MultilevelInheritance {
 

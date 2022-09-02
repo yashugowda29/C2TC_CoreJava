@@ -1,4 +1,4 @@
-package com.tns.concreteclass;
+package com.tns.classdetails;
 
 public class Puppy extends Animal {
 	
