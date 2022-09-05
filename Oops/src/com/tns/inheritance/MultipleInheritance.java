@@ -1,22 +1,21 @@
 package com.tns.inheritance;
 
-class Dad {
-	void snoring() {
-		System.out.println("I have the habit of snoring");
-	}
+interface Dad {
+	void snoring();	
 }
-class Mom {
-	void snoring() {
-		System.out.println("I have the habit of snoring");
-	}
-	
+interface Mom {
+	void snoring();
 }
-class You extends Dad {
-	
+class You implements Dad,Mom {
+	public void snoring() {
+		System.out.println("My parents have the habit of snoring");
+	}
 }
 public class MultipleInheritance {
 
 	public static void main(String[] args) {
+		You y = new You();
+		y.snoring();
 	}
 
 }
