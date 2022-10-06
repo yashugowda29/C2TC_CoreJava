@@ -18,6 +18,10 @@ public class FindFirst {
 //		}
 //		System.out.println(result);
 		
-		System.out.println(list.stream().filter(i->i%5==0).map(i->i*2).findFirst());
+		System.out.println(list
+				               .stream()
+				               .filter(i->i%5==0) //20,35,55,75
+				               .map(i->i*2) //40,70,110,150
+				               .findFirst()); //40
 	}
 }
