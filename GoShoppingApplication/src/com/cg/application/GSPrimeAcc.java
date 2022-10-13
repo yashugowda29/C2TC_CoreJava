@@ -10,7 +10,7 @@ public class GSPrimeAcc extends PrimeAcc {
 	private static final float Charges = 20.0f;
 	
 	public void bookProduct(float charges) {
-		System.out.println("Dear prime user,your product is booked and charges are :" + charges);
+		System.out.println("Dear prime user, your product is booked and charges are :" + charges);
 	}
 	public String toString() {
 		return "GSPrimeAcc [isPrime()=" + isPrime() + ", toString()=" + super.toString() + ", getAccNo()=" + getAccNo()

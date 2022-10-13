@@ -7,14 +7,14 @@ public abstract class NormalAcc extends ShopAcc{
 	}
 	private final float deliveryCharge = 50.0f;
 	
+	public float getDeliveryCharge() {
+		return deliveryCharge;
+	}
 	public void bookProduct(float deliveryCharge) {
 		System.out.println("Charges are : " + deliveryCharge);
 	}
 	public String toString() {
 		return "NormalAcc [deliveryCharge=" + deliveryCharge + ", getClass()=" + getClass() + ", hashCode()="
 				+ hashCode() + ", toString()=" + super.toString() + "]";
-	}
-	public float getDeliveryCharge() {
-		return deliveryCharge;
 	}
 }

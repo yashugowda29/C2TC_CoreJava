@@ -8,7 +8,7 @@ public class GSNormalAcc extends NormalAcc {
 		super(accNo, accNm, charges, deliveryCharges);
 	}
 	public void bookProduct(float deliveryCharge) {
-		System.out.println("Dear normal user,your product is booked,your charges are : " + getCharges() + "and delivery charges are : " + getDeliveryCharge());
+		System.out.println("Dear normal user, your product is booked, your charges are : " + getCharges() + " and delivery charges are : " + getDeliveryCharge());
 	}
 	public String toString() {
 		return "GSNormalAcc [toString()=" + super.toString() + ", getDeliveryCharge()=" + getDeliveryCharge()
