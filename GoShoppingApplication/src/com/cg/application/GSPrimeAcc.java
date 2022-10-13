@@ -9,6 +9,9 @@ public class GSPrimeAcc extends PrimeAcc {
 	}
 	private static final float Charges = 20.0f;
 	
+	public float getCharges() {
+		return Charges;
+	}
 	public void bookProduct(float charges) {
 		System.out.println("Dear prime user, your product is booked and charges are :" + charges);
 	}
