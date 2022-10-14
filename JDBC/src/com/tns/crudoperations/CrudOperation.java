@@ -8,12 +8,12 @@ import java.sql.Statement;
 import com.tns.util.DBUtil;
 
 public class CrudOperation {
-
+	
 	//Create
 	public static void addEmployee() throws SQLException {
 		Connection connection = DBUtil.getConnection();
 		Statement stmt = connection.createStatement();
-		String sqlinsert = "INSERT INTO EMPLOYEE(id,name,salary,bonus)" + "values(3,'Rukmini',4000,300)";
+		String sqlinsert = "INSERT INTO EMPLOYEE(id,name,salary,bonus)" + "values(4,'Krishna',6000,500)";
 		int executeupdate  = stmt.executeUpdate(sqlinsert);
 		if(executeupdate==1)
 			System.out.println("Insertion is successful");
